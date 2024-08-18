@@ -1,0 +1,58 @@
+.billing__form .form__group input {
+  border: 1px solid var(--card-bg-02);
+}
+
+.checkout__cart {
+  padding: 20px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.checkout__cart h6,
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout__cart h6 {
+  margin-bottom: 20px;
+}
+
+.checkout__cart h5 {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.checkout__cart input[type='radio'] {
+  margin-right: 4px;
+}
+
+.checkout__cart label {
+  margin-right: 40px;
+}
+
+.checkout__cart h4 {
+  border-top: 1px solid rgba(221, 221, 221, 0.253);
+  padding-top: 20px;
+}
+
+.import_bank_transfer {
+  margin-top: 14px;
+}
+
+.import_bank_transfer input {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+.import_bank_transfer h6 {
+  margin-bottom: 8px;
+}
+
+.auth__btn {
+  background: #fff;
+  color: var(--primary-color);
+  font-weight: 600;
+}

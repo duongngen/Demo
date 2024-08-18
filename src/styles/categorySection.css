@@ -1,0 +1,50 @@
+.popular__category-info {
+  position: relative;
+  transition: 0.8s ease;
+}
+
+.popular__category-info p {
+  position: absolute;
+  top: 26%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  width: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.popular__category-info button {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  text-shadow: 1px 1px 5px #000;
+  margin: 0;
+  transition: 0.8s ease;
+}
+
+.popular__category-info button a:hover {
+  color: #fff;
+}
+
+.popular__category-info:hover img {
+  opacity: 0.5;
+  transition: 0.8s ease;
+}
+
+.popular__category-info:hover p {
+  transition: 0.8s ease;
+  display: none;
+}
+
+.popular__category-info:hover button {
+  transition: 0.8s ease;
+  display: block;
+}

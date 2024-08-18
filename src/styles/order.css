@@ -1,0 +1,22 @@
+.bill__container {
+  margin: 40px 0;
+  display: flex;
+  color: var(--primary-color);
+  font-weight: 600;
+  background-color: #cbdaf1;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.bill__container div {
+  line-height: 22px;
+}
+
+.bill__container span {
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.bill__container tr {
+  border-color: #198754;
+}

@@ -1,0 +1,132 @@
+.slider__wrap {
+  margin-top: 8px;
+  width: calc(100% + 4px);
+}
+
+.slider__wrap .slick-list {
+  display: flex;
+  height: 140px;
+}
+
+.slider__wrap .slick-slide {
+  width: 122px !important;
+  margin: 0 8px;
+}
+
+.slider__wrap .slick-track {
+  margin: 0;
+}
+
+.slider__wrap img {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.slider__wrap .slick-current img {
+  border: 2px solid rgb(238, 175, 59);
+  opacity: 1;
+}
+
+.product__details {
+  margin-top: 30px;
+}
+
+.product__details h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.product__rating span i {
+  color: coral;
+}
+
+.product__rating p span {
+  color: coral;
+  font-weight: 500;
+}
+
+.product__price {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.quantity {
+  margin: 20px 0 4px 0;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.product__qty {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.04rem;
+  border: solid 1px rgb(161, 159, 159);
+}
+
+.product__qty button {
+  border: none;
+  background-color: transparent;
+  padding: 0 6px;
+  margin-top: 2px;
+}
+
+.product__qty span {
+  text-align: center;
+  width: 48px;
+  padding: 0 14px;
+  line-height: 100%;
+  border-left: solid 1px rgb(161, 159, 159);
+  border-right: solid 1px rgb(161, 159, 159);
+}
+
+.mt-24px {
+  margin-top: 24px;
+}
+
+.tab__wrapper {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.tab__wrapper h4 {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-style: 1rem;
+  cursor: pointer;
+}
+
+.active__tab {
+  font-weight: 600;
+}
+
+.tab__content {
+  padding-left: 0;
+  list-style: disc;
+}
+
+.tab__content h6 {
+  margin-bottom: 12px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.tab__content li {
+  margin-top: 4px;
+  margin-left: 20px;
+}
+.related__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .product__details h2 {
+    font-size: 1.3rem;
+  }
+
+  .rating__group {
+    column-gap: 1rem !important;
+  }
+}

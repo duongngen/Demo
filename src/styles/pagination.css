@@ -1,0 +1,32 @@
+.pagination {
+  justify-content: flex-end;
+}
+
+.pagination a {
+  color: var(--primary-color);
+  font-weight: 500;
+  border-color: var(--primary-color);
+}
+
+.pagination a.active {
+  color: var(--primary-color);
+  font-weight: 700;
+  background-color: #9fc7ce;
+  border-color: var(--primary-color);
+}
+
+.pagination a.active:hover {
+  color: var(--primary-color);
+  font-weight: 700;
+  background-color: #9fc7ce;
+  opacity: 1;
+  border-color: var(--primary-color);
+}
+
+.pagination a:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: #9fc7ce;
+  opacity: 0.5;
+  border-color: var(--primary-color);
+}

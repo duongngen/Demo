@@ -1,0 +1,13 @@
+.checkout__success h6 {
+  font-size: 1.4rem;
+}
+
+.checkout__success p {
+  font-size: 1rem;
+  color: #333;
+  margin: 4px 0;
+}
+
+.checkout__success h5 {
+  color: var(--primary-color);
+}

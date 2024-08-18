@@ -1,0 +1,36 @@
+.auth__form {
+  background: var(--primary-color);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.form__group input {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 8px 20px;
+  width: 100%;
+}
+
+.errorOutline {
+  border: 1px solid rgb(252, 23, 23) !important;
+}
+
+.errorMsg {
+  margin-top: 2px !important;
+  text-align: left;
+  color: rgb(252, 23, 23);
+  font-size: 0.9rem;
+}
+
+.auth__form p {
+  margin-top: 30px;
+}
+
+.auth__form p a {
+  color: rgba(255, 255, 255, 0.735);
+}
+
+.auth__form input[type='file'] {
+  color: #fff;
+  cursor: pointer;
+}
